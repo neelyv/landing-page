@@ -44,3 +44,8 @@ h1 {
     color: white;
     text-decoration: none;
 }
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
