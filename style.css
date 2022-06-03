@@ -9,6 +9,10 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 28px;
+}
+
 .header {
     background-color: #1f2937;
     color: white;
@@ -19,6 +23,7 @@ body {
 
 .navigation {
     display: flex;
+    font-size: 18px;
 }
 
 .navigation li {
