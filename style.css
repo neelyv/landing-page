@@ -20,10 +20,15 @@ h1 {
     display: flex;
 }
 
-.container {
+/* Use .container-main for most sections to ensure content has proper margins/width
+   Class has additional special settings depending on where it's nested */
+.container-main {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+.header .container-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
