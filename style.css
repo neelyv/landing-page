@@ -20,12 +20,21 @@ h1 {
     display: flex;
 }
 
-/* Use .container-main for most sections to ensure content has proper margins/width
-   Class has additional special settings depending on where it's nested */
+/* Use .container-main for most sections to ensure content has proper
+   margins/width in relation to body; class has additional special
+   settings depending on where it's nested
+*/
 .container-main {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+/* Use .container-items class for groups of items to be treated as one object
+   when nested inside .container-main class
+*/
+.container-items {
+    
 }
 
 .header .container-main {
