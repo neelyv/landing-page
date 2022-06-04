@@ -30,17 +30,17 @@ h1 {
     width: 75%;
 }
 
+.header .container-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* Use .container-items class for groups of items to be treated as one object
    when nested inside .container-main class
 */
 .container-items {
     
-}
-
-.header .container-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .navigation {
@@ -62,4 +62,9 @@ h1 {
 .hero {
     background-color: #1f2937;
     color: white;
+}
+
+.hero .container-main {
+    display: flex;
+    justify-content: space-between;
 }
