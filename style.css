@@ -146,6 +146,10 @@ h1 {
 .call-to-action {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 15px;
+    padding: 30px 80px;
+    width: 60%;
+    margin: 50px auto;
 }
 
 /* -------------------------
