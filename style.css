@@ -67,6 +67,10 @@ h1 {
     text-align: right;
 }
 
+.text-emphasis {
+    font-weight: bold;
+}
+
 /* -------------------------
    Header and hero sections
    -----------------------*/
@@ -151,6 +155,8 @@ h1 {
     width: 60%;
     margin: 50px auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action .button-sign-up {
