@@ -150,7 +150,7 @@ h1 {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 15px;
-    padding: 30px 80px;
+    padding: 30px 100px;
     width: 60%;
     margin: 50px auto;
     display: flex;
@@ -158,8 +158,16 @@ h1 {
     align-items: center;
 }
 
+.call-to-action p {
+    margin: 2px;
+}
+
 .call-to-action .button-sign-up {
     border: 3px solid #F9FAF8;
+}
+
+.call-to-action .text-emphasis {
+    font-size: 18px;
 }
 
 /* -------------------------
