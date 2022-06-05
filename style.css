@@ -132,7 +132,6 @@ h1 {
     align-items: start;
 }
 
-
 /* -------------------------
    Main content sections
    -----------------------*/
@@ -144,3 +143,14 @@ h1 {
     text-align: center;
 }
 
+/* -------------------------
+   Footer section
+   -----------------------*/
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
