@@ -71,6 +71,10 @@ h1 {
     color: #F9FAF8;
 }
 
+.hero img {
+    margin-left: 80px;
+}
+
 .hero .container-main {
     display: flex;
     justify-content: space-between;
