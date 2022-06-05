@@ -1,3 +1,6 @@
+/* -------------------------
+   Page settings 
+   -----------------------*/
 
 html, body {
     height: 100%;
@@ -14,10 +17,15 @@ h1 {
     font-size: 28px;
 }
 
-.header {
-    background-color: #1f2937;
-    color: white;
-    display: flex;
+/* ----------------------------------------
+   General (for reuse in multiple sections)
+   --------------------------------------*/
+
+/* Use .container-items class for groups of items to be treated as one object
+   when nested inside .container-main class
+*/
+.container-items {
+    
 }
 
 /* Use .container-main for most sections to ensure content has proper
@@ -30,17 +38,20 @@ h1 {
     width: 75%;
 }
 
+/* -------------------------
+   Header and hero sections
+   -----------------------*/
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
 .header .container-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-/* Use .container-items class for groups of items to be treated as one object
-   when nested inside .container-main class
-*/
-.container-items {
-    
 }
 
 .navigation {
