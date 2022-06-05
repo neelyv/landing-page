@@ -47,6 +47,10 @@ h1 {
     display: inline-block;
 }
 
+.box-swatch {
+    border: 5px solid #3882F6;
+}
+
 /* -------------------------
    Header and hero sections
    -----------------------*/
@@ -110,4 +114,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: start;
+}
+
+
+/* -------------------------
+   Main content sections
+   -----------------------*/
+
+.content h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
