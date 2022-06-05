@@ -49,6 +49,12 @@ h1 {
 
 .box-swatch {
     border: 5px solid #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.box-quote {
+    background-color: #E5E7EB;
 }
 
 /* -------------------------
