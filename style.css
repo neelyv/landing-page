@@ -61,13 +61,14 @@ h1 {
 
 .hero {
     background-color: #1f2937;
-    color: white;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
 .hero h2 {
     font-size: 48px;
     font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .hero .container-main {
