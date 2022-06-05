@@ -55,6 +55,7 @@ h1 {
 
 .box-quote {
     background-color: #E5E7EB;
+    padding: 50px 300px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -142,3 +143,4 @@ h1 {
     color: #1F2937;
     text-align: center;
 }
+
