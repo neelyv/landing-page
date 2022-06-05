@@ -53,20 +53,6 @@ h1 {
     height: 100px;
 }
 
-.box-quote {
-    background-color: #E5E7EB;
-    padding: 50px 300px;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1F2937;
-}
-
-.box-quote .name {
-    font-weight: bold;
-    text-align: right;
-}
-
 .text-emphasis {
     font-weight: bold;
 }
@@ -145,6 +131,19 @@ h1 {
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+}
+
+.box-quote {
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.box-quote .text-emphasis {
+    text-align: right;
 }
 
 .call-to-action {
