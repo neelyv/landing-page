@@ -47,6 +47,10 @@ h1 {
     display: inline-block;
 }
 
+.container-swatch {
+    display: flex;
+}
+
 .box-swatch {
     border: 5px solid #3882F6;
     width: 100px;
