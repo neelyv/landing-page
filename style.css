@@ -56,14 +56,15 @@ h1 {
 }
 
 .container-swatch .container-items {
-    width: 150px;
+    width: 200px;
+    text-align: center;
 }
 
 .box-swatch {
     border: 5px solid #3882F6;
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .text-emphasis {
