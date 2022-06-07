@@ -52,18 +52,19 @@ h1 {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .container-swatch .container-items {
-    width: 200px;
+    width: 175px;
     text-align: center;
 }
 
 .box-swatch {
     border: 5px solid #3882F6;
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 }
 
 .text-emphasis {
