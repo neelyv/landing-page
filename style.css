@@ -55,6 +55,10 @@ h1 {
     justify-content: space-between;
 }
 
+.container-swatch .container-items {
+    width: 150px;
+}
+
 .box-swatch {
     border: 5px solid #3882F6;
     border-radius: 15px;
