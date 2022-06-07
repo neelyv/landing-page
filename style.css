@@ -48,9 +48,8 @@ h1 {
 }
 
 .container-swatch {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 50px auto 80px auto;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
