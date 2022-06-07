@@ -48,11 +48,16 @@ h1 {
 }
 
 .container-swatch {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: flex;
+    justify-content: space-between;
 }
 
 .box-swatch {
     border: 5px solid #3882F6;
+    border-radius: 15px;
     width: 100px;
     height: 100px;
 }
